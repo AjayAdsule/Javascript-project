@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/f57ea223a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="container flex justify-center items-center ">
+      <div class="card h-[300px] w-[500px] bg-white fixed">
+          <h2 class="heading text-center my-[40px] text-[22px] font-semibold">Modal Project</h2>
+          <button class="btn rounded-[3px] h-[40px] w-[150px] mx-[170px] bg-blue-600 text-white hover:bg-pink-500 cursor-pointer">Open</button>
+      </div>
+      <div class="modal h-[500px] w-[800px] bg-white relative hidden">
+        <div class="header flex justify-center">
+        <h2 class="text-[32px]  py-[10px]" >Hello you open modal</h2>
+        <button class="close-btn">
+          <i class="fa-regular fa-ban" style="color: #3170dd;"></i>
+        </button>
+      </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+   
+  </body>
+</html>

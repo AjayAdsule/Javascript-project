@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("https://raw.githubusercontent.com/whoroopamgupta/JS-projects-workshop/master/06-modal/final/hero.jpeg");
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  border: 2px solid red;
+  margin: auto;
+  background-size: 1260px;
+}
